@@ -156,7 +156,24 @@
   }
 }
 
-
+{
+    "repositories": [ {
+        "type": "package",
+        "package": {
+            "name": "WellCommerce",
+            "version": "1.0.0",
+            "source": {
+                "url": "https://github.com/TheShiftExchange/test.git",
+                "type": "git",
+                "reference": "master"
+              }
+         }
+    }],
+    "require": {
+        #"laravel/framework": "4.0.*",
+        
+    },
+}
 
 
 
