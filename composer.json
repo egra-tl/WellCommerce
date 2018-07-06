@@ -1,3 +1,4 @@
+
 {
   "name": "wellcommerce/wellcommerce",
   "license": "MIT",
@@ -36,6 +37,7 @@
     "ext-gd": "*",
     "ext-exif": "*",
     "wellcommerce/composer-plugin": "^1.0@dev",
+    "wellcommerce/standard-edition-bundle": "^0.9@dev",
     "incenteev/composer-parameter-handler": "v2.1.2",
     "symfony/symfony": "v3.2.2",
     "doctrine/orm": "v2.5.4",
@@ -98,7 +100,9 @@
     "wellcommerce/search-bundle": "self.version",
     "wellcommerce/showcase-bundle": "self.version",
     "wellcommerce/wishlist-bundle": "self.version",
-    "wellcommerce/wellcommerce-default-theme": "self.version"
+    "wellcommerce/wellcommerce-default-theme": "self.version",
+    "wellcommerce/product-last-viewed-bundle": "*"
+
   },
   "scripts": {
     "post-install-cmd": [
@@ -151,3 +155,9 @@
     }
   }
 }
+
+
+
+
+
+
